@@ -31,9 +31,8 @@ const Timeline = ({ timeline }: ExperienceProps) => {
         {experience.map((exp, index) => (
           <Transition
             key={exp._id}
-            className="py-4 md:py-8 border-b border-white/10 hover:bg-white/5 px-2 md:px-12"
-            onMouseEnter={() => setHover(index)}
-            onMouseLeave={() => setHover(null)}
+            className="py-4 md:py-8 border-b border-white/10 hover:bg-white/5 px-2 md:px-12 cursor-pointer"
+            onClick={() => setHover((prev) => (prev === index ? null : index))}
           >
             <div className="flex items-center justify-between md:gap-8">
               <span className="max-md:hidden">0{index + 1}</span>
@@ -59,9 +58,12 @@ const Timeline = ({ timeline }: ExperienceProps) => {
               <span>{exp.jobLocation}</span>
             </div>
             <motion.div
-              initial={{ height: 0 }}
-              animate={{ height: hover === index ? "100%" : 0 }}
-              transition={{ duration: 0.5 }}
+              initial={{ height: 0, opacity: 0 }}
+              animate={{
+                height: hover === index ? "auto" : 0,
+                opacity: hover === index ? 1 : 0,
+              }}
+              transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
               className="overflow-hidden"
             >
               <p className="text-foreground/60 py-2">{exp.summary}</p>
