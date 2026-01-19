@@ -2,8 +2,8 @@
   "about": {
     "name": "Md. Faiz",
     "title": "Web Developer",
-    "subTitle": "I build web applications, grounded in agency, product, and market systems.",
-    "description": "No big origin story, just time spent understanding systems—markets, interfaces, and the logic beneath them. I build web applications with React and Next.js, working with Tailwind CSS, JavaScript, Node.js, and Python. Running an agency and spending years swing trading influenced how I approach clarity, risk, and long-term reliability in what I build.",
+    "subTitle": "Building applications that impact your bottom line, not trendy frameworks for LinkedIn posts.",
+    "description": "No dramatic origin story. I spent years figuring out how systems work - markets, code, what breaks and what holds. Built web applications with React, Next.js, Tailwind, JavaScript, Node.js, and Python. Running an agency at 14 and trading taught me what tutorials don't: cut losses fast, communicate under pressure, clarity beats cleverness. That shows up in everything I build.",
     "quote": "Thoughtful systems",
     "exp_year": "5",
     "address": "Mumbai, India",
@@ -34,17 +34,17 @@
   "timeline": [
     {
       "company_name": "Indian markets ",
-      "summary": "Market analysis through structure and risk.",
+      "summary": "Technical Analysis & Risk Management",
       "sequence": 6,
       "startDate": "2023-05-12T00:00:00.000Z",
       "endDate": "2026-01-18T00:00:00.000Z",
       "jobTitle": "Swing Trading",
       "jobLocation": "& Crypto",
       "bulletPoints": [
-        "Analyze market structure using higher-timeframe context and multi-timeframe alignment.",
-        "\nStudy institutional participation through liquidity zones, displacement, and volume behavior.",
-        "\nFocus on defined risk–reward setups with strict position sizing and drawdown control.",
-        "\nEmphasize execution discipline, expectancy, and post-trade review over prediction."
+        "Trade market structure using higher timeframes - wait for alignment, not hope for movement.",
+        "\nStudy where institutions enter through liquidity zones, displacement, volume - not retail indicators.",
+        "\nOnly take setups with defined risk-reward ratios, strict position sizing, controlled drawdowns.",
+        "\nFocus on execution discipline and reviewing what actually happened, not predicting what might."
       ],
       "forEducation": true,
       "enabled": true,
@@ -52,16 +52,16 @@
     },
     {
       "company_name": "Swing Trader",
-      "summary": "Introduced to markets by Harshad Mehta scam articles, learned institutional strategies.",
+      "summary": "Started after reading about the '92 scam. Learned by losing, then studying what actually moves price.",
       "sequence": 4,
       "startDate": "2024-03-06T00:00:00.000Z",
       "endDate": "2024-03-20T00:00:00.000Z",
       "jobTitle": "Stock Market & Trading",
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
-        "Study swing trading using market structure, liquidity, and supply-demand zones for precision.",
-        "\nAnalyze institutional participation, multi-timeframe trends, and volume to improve entry and exit timing.",
-        "\nExtended strategies to crypto, applying risk-reward analysis, position sizing, and disciplined trade execution."
+        "Trade market structure and liquidity zones - where institutions actually enter, not where retail thinks they do.",
+        "\nUse multi-timeframe analysis and volume to time entries when probability shifts in my favor.",
+        "\nApplied the same framework to crypto: strict risk-reward ratios, position sizing, and no emotional trades."
       ],
       "forEducation": false,
       "enabled": true,
@@ -69,7 +69,7 @@
     },
     {
       "company_name": "Founder, AgencyGrow",
-      "summary": "Started an agency in class 9 to achieve independence and practical experience.",
+      "summary": "Started at 14 because I wanted my own money and couldn't wait for a degree.",
       "sequence": 3,
       "startDate": "2023-10-11T00:00:00.000Z",
       "endDate": "2024-03-28T00:00:00.000Z",
@@ -77,8 +77,8 @@
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
         "Launched AgencyGrow at a young age, running performance-driven ad campaigns for clients.",
-        "\nManaged Google Ads, Meta Ads, creatives, and budgets to generate measurable ROI.",
-        "\nLearned real-world execution, client communication, and decision-making under pressure."
+        "\nManaged Google and Meta budgets for real clients, delivered 2-5x ROI under actual pressure.",
+        "\nFigured out how to talk to clients twice my age and deliver results they'd actually pay for."
       ],
       "forEducation": false,
       "enabled": true,
@@ -86,17 +86,17 @@
     },
     {
       "company_name": "AgencyGrow, ",
-      "summary": "Running performance-driven marketing systems.",
+      "summary": "Performance Marketing Systems.",
       "sequence": 2,
       "startDate": "2023-02-24T00:00:00.000Z",
       "endDate": "2026-01-18T00:00:00.000Z",
       "jobTitle": "Marketing Agency",
       "jobLocation": "India, Mumbai",
       "bulletPoints": [
-        "Founded and operated AgencyGrow, delivering Google Ads and Meta Ads for businesses.",
-        "\nWorked with expert ad managers to achieve consistent 2–5× ROI for clients.",
-        "\nHands-on experience with funnels, creatives, tracking, and budget optimization",
-        "\nLearned execution under pressure, deadlines, and real financial accountability\n"
+        "Founded AgencyGrow at 14 - ran Google and Meta campaigns while figuring out client calls.",
+        "\nWorked with ad managers to consistently hit 2-5x ROI, learned what works beyond theory.",
+        "\nHandled funnels, creatives, tracking, budgets - and the pressure when results actually matter.",
+        "\nGot real experience with deadlines, financial stakes, and delivering what you promised.\n"
       ],
       "forEducation": true,
       "enabled": true,
@@ -116,8 +116,8 @@
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
         "Completed 10th boards at Raigad Military School with structured learning environment.",
-        "Studied 11th–12th at Rajhans Vidyalaya in the science stream, exploring technology and logical thinking.",
-        "Developed early habits of discipline, focus, and problem-solving that still guide decisions today."
+        "Switched to Rajhans Vidyalaya for science stream - started actually caring about how things work.",
+        "The discipline stuck around longer than the textbooks did, turns out that matters more."
       ],
       "forEducation": false,
       "enabled": true,
@@ -125,7 +125,7 @@
     },
     {
       "company_name": "India, ",
-      "summary": "",
+      "summary": "Front-end Web Developer",
       "sequence": 1,
       "icon": {
         "public_id": "1706289470834-siro83",
@@ -136,9 +136,9 @@
       "jobTitle": "Web Development",
       "jobLocation": "Mumbai",
       "bulletPoints": [
-        "Develop web applications using React, Next.js, Tailwind CSS, JavaScript, Node.js, and Python",
-        " Focus on clarity, maintainability, and systems that scale beyond initial launch ",
-        " Product-first approach shaped by real usage, constraints, and long-term outcomes"
+        "Build web applications with React, Next.js, Node.js, and Python - tools that actually ship products.",
+        "Write code for maintainability first because I've seen what happens when you don't.",
+        "Product-focused: built for real users, real constraints, and what happens after launch day."
       ],
       "forEducation": true,
       "enabled": true,
