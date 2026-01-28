@@ -9,7 +9,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 import { cn } from "../../utils/cn";
 
-interface Props extends HTMLMotionProps<"span"> {}
+interface Props extends HTMLMotionProps<"span"> { }
 
 export const SlideIn = ({
   className,
@@ -35,7 +35,7 @@ export const SlideIn = ({
   );
 };
 
-interface TransitionProps extends HTMLMotionProps<"div"> {}
+interface TransitionProps extends HTMLMotionProps<"div"> { }
 export const Transition = ({
   initial,
   whileInView,

@@ -41,10 +41,8 @@
       "jobTitle": "Swing Trading",
       "jobLocation": "& Crypto",
       "bulletPoints": [
-        "Trade market structure using higher timeframes - wait for alignment, not hope for movement.",
-        "\nStudy where institutions enter through liquidity zones, displacement, volume - not retail indicators.",
-        "\nOnly take setups with defined risk-reward ratios, strict position sizing, controlled drawdowns.",
-        "\nFocus on execution discipline and reviewing what actually happened, not predicting what might."
+        "Trade price action and liquidity zones where volume confirms intent - wait for alignment, not hope.",
+        "\nEnter when structure breaks with momentum, exit when targets hit or thesis fails - no second guessing mid position."
       ],
       "forEducation": true,
       "enabled": true,
@@ -59,9 +57,8 @@
       "jobTitle": "Stock Market & Trading",
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
-        "Trade market structure and liquidity zones - where institutions actually enter, not where retail thinks they do.",
-        "\nUse multi-timeframe analysis and volume to time entries when probability shifts in my favor.",
-        "\nApplied the same framework to crypto: strict risk-reward ratios, position sizing, and no emotional trades."
+        "Trade where institutions enter through liquidity and volume, not where retail hopes they do.",
+        "\nUse multi-timeframe analysis and volume to time entries when probability shifts in my favor."
       ],
       "forEducation": false,
       "enabled": true,
@@ -93,10 +90,9 @@
       "jobTitle": "Marketing Agency",
       "jobLocation": "India, Mumbai",
       "bulletPoints": [
-        "Founded AgencyGrow at 14 - ran Google and Meta campaigns while figuring out client calls.",
+        "Started AgencyGrow at 14 - ran Google and Meta campaigns while figuring out client calls.",
         "\nWorked with ad managers to consistently hit 2-5x ROI, learned what works beyond theory.",
-        "\nHandled funnels, creatives, tracking, budgets - and the pressure when results actually matter.",
-        "\nGot real experience with deadlines, financial stakes, and delivering what you promised.\n"
+        "\nHandled funnels, creatives, tracking, budgets - and the pressure when results actually matter.\n"
       ],
       "forEducation": true,
       "enabled": true,
@@ -116,7 +112,7 @@
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
         "Completed 10th boards at Raigad Military School with structured learning environment.",
-        "Switched to Rajhans Vidyalaya for science stream - started actually caring about how things work.",
+        "Switched to Rajhans Vidyalaya for science stream, started actually caring about how things work.",
         "The discipline stuck around longer than the textbooks did, turns out that matters more."
       ],
       "forEducation": false,
@@ -125,7 +121,7 @@
     },
     {
       "company_name": "India, ",
-      "summary": "Front-end Web Developer",
+      "summary": "Building Products That Actually Work",
       "sequence": 1,
       "icon": {
         "public_id": "1706289470834-siro83",
@@ -136,9 +132,9 @@
       "jobTitle": "Web Development",
       "jobLocation": "Mumbai",
       "bulletPoints": [
-        "Build web applications with React, Next.js, Node.js, and Python - tools that actually ship products.",
-        "Write code for maintainability first because I've seen what happens when you don't.",
-        "Product-focused: built for real users, real constraints, and what happens after launch day."
+        "Ship functional web apps using React, Next.js, Node.js, Python - picked for delivery speed.",
+        "Code with future maintenance in mind because quick fixes create expensive problems.",
+        "Design for real user behavior and post-launch reality, not just demos."
       ],
       "forEducation": true,
       "enabled": true,
@@ -404,14 +400,13 @@
       "sequence": 14,
       "image": {
         "public_id": "1706285511679-xe7r9t",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285468702-igx05q"
+        "url": "projects/project-1.jpg"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "techStack": [
         "Reactjs ",
         " Nextjs ",
-        " Mern ",
-        " CSS"
+        " CSS "
       ],
       "_id": "65b3d9c8d017f6b49c778ca7",
       "enabled": true
@@ -423,256 +418,143 @@
       "sequence": 15,
       "image": {
         "public_id": "1706285468702-igx05q",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285511679-xe7r9t"
+        "url": "projects/project-2.jpg"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "techStack": [
-        "Reactjs ",
-        " Nextjs ",
-        " Mern ",
-        " CSS"
+        "Reactjs",
+        "CSS",
+        "Javascript"
       ],
       "_id": "65b3d99dd017f6b49c778c86",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 13",
+      "liveurl": "https://marketminer.netlify.app/",
+      "githuburl": "https://github.com/MohammadFaizAlam/marketminer",
+      "title": "Market Miner",
       "sequence": 13,
       "image": {
         "public_id": "1706285431821-3lfg2r",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285431821-3lfg2r"
+        "url": "projects/project-3.jpg"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "techStack": [
         "Reactjs ",
         " Nextjs ",
-        " Mern ",
-        " CSS"
+        "Tailwind",
+        "Typescript"
       ],
       "_id": "65b3d978d017f6b49c778c67",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 12",
+      "liveurl": "https://agencygrow.vercel.app/",
+      "githuburl": "https://github.com/MohammadFaizAlam/agencygrow",
+      "title": "AgencyGrow",
       "sequence": 12,
       "image": {
         "public_id": "1706285416017-wra7swm",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285416017-wra7swm"
+        "url": "projects/project-4.jpg"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "techStack": [
         "Reactjs ",
         " Nextjs ",
-        " Mern ",
-        " CSS"
+        " Typescript",
+        " Tailwind"
       ],
       "_id": "65b3d969d017f6b49c778c4a",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 11",
+      "liveurl": "https://grilli.netlify.app/",
+      "githuburl": "https://github.com/MohammadFaizAlam/faiz-grilli",
+      "title": "Grilli",
       "sequence": 11,
       "image": {
         "public_id": "1706285405228-98liol",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285405228-98liol"
+        "url": "projects/project-5.jpg"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "techStack": [
         "Reactjs ",
-        " Nextjs ",
-        " Mern ",
-        " CSS"
+        " CSS ",
+        " Javascript "
       ],
       "_id": "65b3d95dd017f6b49c778c2f",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 10",
+      "liveurl": "https://faiz-atoms.netlify.app/",
+      "githuburl": "https://github.com/MohammadFaizAlam/faiz-atoms",
+      "title": "Carbon Atom Simulation",
       "sequence": 10,
       "image": {
         "public_id": "1706285393568-zl9mcc",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285393568-zl9mcc"
+        "url": "projects/project-6.jpg"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "techStack": [
-        "Reactjs "
+        "Reactjs",
+        " CSS",
+        " Javascript"
       ],
       "_id": "65b3d952d017f6b49c778c16",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 9",
+      "liveurl": "https://vocadosolutions.netlify.app/",
+      "githuburl": "https://github.com/MohammadFaizAlam/vocadosolutions",
+      "title": "Vocado Solutions",
       "sequence": 9,
       "image": {
         "public_id": "1706285378965-91vbk",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285378965-91vbk"
+        "url": "projects/project-7.jpg"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "techStack": [
         "Reactjs ",
-        " Nextjs ",
-        " Mern ",
-        " CSS"
+        " CSS ",
+        " Javascript "
       ],
       "_id": "65b3d943d017f6b49c778bff",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 8",
+      "liveurl": "https://faiz-metaverse.netlify.app/",
+      "githuburl": "https://github.com/MohammadFaizAlam/faiz-metaverse",
+      "title": "Metaverse",
       "sequence": 8,
       "image": {
         "public_id": "1706285368529-zdr5fl",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285368529-zdr5fl"
+        "url": "projects/project-1.jpg"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "techStack": [
         "Reactjs  ",
-        " Mern ",
-        " CSS"
+        " Nextjs ",
+        " Tailwind"
       ],
       "_id": "65b3d938d017f6b49c778bea",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 7",
+      "liveurl": "https://holyquranplayer.netlify.app/",
+      "githuburl": "https://github.com/MohammadFaizAlam/holyquranplayer",
+      "title": "Holy Quran Player",
       "sequence": 7,
       "image": {
         "public_id": "1706285357884-3ja6sw",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285357884-3ja6sw"
+        "url": "projects/project-2.jpg"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "techStack": [
         "Reactjs   ",
-        " CSS"
+        " CSS",
+        " Javascript"
       ],
       "_id": "65b3d92ed017f6b49c778bd7",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 6",
-      "sequence": 6,
-      "image": {
-        "public_id": "1706285347449-dniw0h",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285347449-dniw0h"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": [
-        " Nextjs ",
-        " Mern ",
-        " CSS"
-      ],
-      "_id": "65b3d923d017f6b49c778bc6",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 5",
-      "sequence": 5,
-      "image": {
-        "public_id": "1706285323287-nt3ya3",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285323287-nt3ya3"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": [
-        "Reactjs ",
-        " Mern ",
-        " CSS"
-      ],
-      "_id": "65b3d8fed017f6b49c778ba9",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 4",
-      "sequence": 4,
-      "image": {
-        "public_id": "1706284852474-gh2ng",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284852474-gh2ng"
-      },
-      "description": "lorem ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": [
-        "Reactjs ",
-        " Nextjs ",
-        " Mern ",
-        " CSS"
-      ],
-      "_id": "65b3d734313a9b09a24a14a3",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 3",
-      "sequence": 3,
-      "image": {
-        "public_id": "1706284839761-ckccdj",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284839761-ckccdj"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": [
-        "Reactjs ",
-        " Nextjs ",
-        " Mern ",
-        " CSS"
-      ],
-      "_id": "65b3d728313a9b09a24a1498",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 2",
-      "sequence": 2,
-      "image": {
-        "public_id": "1706284824843-56iakg",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284824843-56iakg"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": [
-        "Reactjs ",
-        " Nextjs ",
-        " Mern ",
-        " CSS ",
-        " TailwindCSS"
-      ],
-      "_id": "65b3d719313a9b09a24a148f",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 1",
-      "sequence": 1,
-      "image": {
-        "public_id": "1706284812399-jr7rqj",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284812399-jr7rqj"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": [
-        "Reactjs ",
-        " Nextjs ",
-        " Mern ",
-        " CSS"
-      ],
-      "_id": "65b3d70d313a9b09a24a1488",
       "enabled": true
     }
   ],
@@ -718,11 +600,11 @@
       "_id": "65b3e43cb48589dfcae1856c"
     }
   ],
-  "services": [
+"services": [
     {
       "name": "Web Development",
       "charge": "$400",
-      "desc": "Build scalable, maintainable web applications with React, Next.js, and clean architecture designed for real-world use.",
+      "desc": "Build web applications that scale without breaking - clean code, maintainable structure, built for what happens after launch.",
       "enabled": true,
       "_id": "65f1fd690556c3f887e9d94a",
       "image": {
@@ -733,7 +615,7 @@
     {
       "name": "UI/UX & Graphic Design",
       "charge": "$100",
-      "desc": "Design interfaces and graphics that communicate clearly, guide users effortlessly, and strengthen your brand identity.",
+      "desc": "Design interfaces that guide users naturally - clarity over cleverness, function over decoration, brand consistency throughout.",
       "image": {
         "public_id": "portfolio3/1710357775748-9vwq4q.jpeg",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357775748-9vwq4q.jpeg"
@@ -744,7 +626,7 @@
     {
       "name": "Marketing Strategy",
       "charge": "$1500",
-      "desc": "Craft campaigns rooted in data and insights, designed to grow traffic, engagement, and measurable results.",
+      "desc": "Build campaigns from data, not assumptions - grow traffic and engagement with strategies tested under real budget pressure.",
       "image": {
         "public_id": "1706290914024-725ytf",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706290914024-725ytf",
@@ -756,7 +638,7 @@
     {
       "name": "Ads Management",
       "charge": "$2000",
-      "desc": "Manage Google and Meta Ads with precision, maximizing ROI while minimizing wasted spend and effort.",
+      "desc": "Run Google and Meta Ads focused on ROI, not vanity metrics - cut waste, optimize spend, deliver consistent returns.",
       "image": {
         "public_id": "portfolio3/1710357668346-ke8kgt.jpeg",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357668346-ke8kgt.jpeg"
@@ -767,7 +649,7 @@
     {
       "name": "SEO Optimization",
       "charge": "$200",
-      "desc": "Optimize websites for search visibility, improving rankings, user experience, and sustainable organic traffic growth.",
+      "desc": "Improve search rankings through technical fixes and content structure - sustainable traffic growth, not quick tricks that fade.",
       "image": {
         "public_id": "portfolio3/1710357680224-phijt.png",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357680224-phijt.png"
@@ -778,7 +660,7 @@
     {
       "name": "Workflow & Product Systems",
       "charge": "$100",
-      "desc": "Structure products and systems to scale efficiently, reduce friction, and ensure consistent long-term performance.",
+      "desc": "Design systems that reduce friction and scale without constant intervention - built for efficiency and long-term consistency.",
       "image": {
         "public_id": "portfolio3/1710357752227-6f5trs.jpeg",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357752227-6f5trs.jpeg"

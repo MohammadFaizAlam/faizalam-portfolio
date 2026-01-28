@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { Dispatch, SetStateAction } from "react";
 import { motion } from "motion/react";
 
@@ -41,12 +40,20 @@ const ProjectDialog = ({
             <div className="flex items-center justify-between">
               <h5 className="text-4xl font-bold">{selectedProject.title}</h5>
               <div className="flex items-center gap-4">
-                <Link href={selectedProject.githuburl}>
+                <a
+                  href={selectedProject.githuburl.startsWith('http') ? selectedProject.githuburl : `https://${selectedProject.githuburl}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Github />
-                </Link>
-                <Link href={selectedProject.liveurl}>
+                </a>
+                <a
+                  href={selectedProject.liveurl.startsWith('http') ? selectedProject.liveurl : `https://${selectedProject.liveurl}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <ExternalLink />
-                </Link>
+                </a>
               </div>
             </div>
             <div className="py-3 flex items-center gap-4">
