@@ -12,7 +12,7 @@
     "contactEmail": "faizalam1101@gamil.com",
     "avatar": {
       "public_id": "faiz_image",
-      "url": "/faiz_image.jpg",
+      "url": "/faiz_image_3.jpeg",
       "url_two": "/hero_image.png"
     },
     "alternateAvatars": [
@@ -74,8 +74,7 @@
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
         "Launched AgencyGrow at a young age, running performance-driven ad campaigns for clients.",
-        "\nManaged Google and Meta budgets for real clients, delivered 2-5x ROI under actual pressure.",
-        "\nFigured out how to talk to clients twice my age and deliver results they'd actually pay for."
+        "\nManaged Google and Meta budgets for real clients, delivered 2-5x ROI under actual pressure."
       ],
       "forEducation": false,
       "enabled": true,
@@ -112,10 +111,9 @@
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
         "Completed 10th boards at Raigad Military School with structured learning environment.",
-        "Switched to Rajhans Vidyalaya for science stream, started actually caring about how things work.",
-        "The discipline stuck around longer than the textbooks did, turns out that matters more."
+        "Switched to Rajhans Vidyalaya for science stream, started actually caring about how things work."
       ],
-      "forEducation": false,
+      "forEducation": false,  
       "enabled": true,
       "_id": "65f1fd9e0556c3f887e9d9d8"
     },

@@ -100,7 +100,7 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
           <SlideIn className="text-white/40">Interested in talking?</SlideIn>{" "}
           <br /> <SlideIn>let’s do it.</SlideIn>
         </SectionHeading>
-        <div className="grid md:grid-cols-2 gap-10 md:pt-16">
+        <div className="grid md:grid-cols-2 gap-16 md:gap-10 pt-8 md:pt-16 pb-8 md:pb-0">
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="flex gap-4">
               <Transition className="w-full">
@@ -186,7 +186,7 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
               </Transition>
             </div>
 
-            <div className="flex md:gap-8 gap-4 mt-auto md:pb-16">
+            <div className="flex flex-wrap md:gap-8 gap-6 mt-12 md:mt-auto md:pb-16">
               {social_handle.map((social, index) =>
                 social.enabled ? (
                   <Transition
@@ -203,7 +203,7 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
           </div>
         </div>
       </div>
-      <footer className="flex items-center justify-between md:px-8 px-2 py-4 text-sm">
+      <footer className="flex items-center justify-between md:px-8 px-2 py-6 md:py-4 text-sm mt-4 md:mt-0 border-t border-white/10 md:border-none">
         <Transition>
           <div>&copy; {new Date().getFullYear()} ThePortfolio</div>
         </Transition>

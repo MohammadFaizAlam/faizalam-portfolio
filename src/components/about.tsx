@@ -118,9 +118,9 @@ const TimelineCard = ({
       <div className="flex justify-between items-center pb-3 text-foreground/80">
         <div className="max-md:text-sm">
           <span>{timeline.company_name}</span>
-          <span>{timeline.jobLocation}</span>
+          {/* <span>{timeline.jobLocation}</span> */}
         </div>
-        <div className="max-md:text-xs">
+        {/* <div className="max-md:text-xs">
           <span className="italic">
             {formatDate(timeline.startDate).month +
               ", " +
@@ -132,7 +132,7 @@ const TimelineCard = ({
               ", " +
               formatDate(timeline.endDate).year}
           </span>
-        </div>
+        </div> */}
       </div>
       <ul className="list-disc list-inside">
         {timeline.bulletPoints.map((point, index) => (

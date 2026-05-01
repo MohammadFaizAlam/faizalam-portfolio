@@ -39,7 +39,7 @@ const Timeline = ({ timeline }: ExperienceProps) => {
               <div className="md:text-5xl text-xl md:font-semibold flex-1">
                 {exp.jobTitle}
               </div>
-              <div className="max-md:text-sm max-md:flex flex-col text-foreground/50">
+              {/* <div className="max-md:text-sm max-md:flex flex-col text-foreground/50">
                 <span className="italic">
                   {formatDate(exp.startDate).month +
                     ", " +
@@ -51,11 +51,11 @@ const Timeline = ({ timeline }: ExperienceProps) => {
                     ", " +
                     formatDate(exp.endDate).year}
                 </span>
-              </div>
+              </div> */}
             </div>
             <div className="md:pl-12 py-2 text-foreground/50 max-md:text-sm flex items-center justify-between">
               <span>{exp.company_name}</span>
-              <span>{exp.jobLocation}</span>
+              {/* <span>{exp.jobLocation}</span> */}
             </div>
             <motion.div
               initial={{ height: 0, opacity: 0 }}
@@ -66,14 +66,18 @@ const Timeline = ({ timeline }: ExperienceProps) => {
               transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
               className="overflow-hidden"
             >
-              <p className="text-foreground/60 py-2">{exp.summary}</p>
-              <ul className="list-disc list-inside">
-                {exp.bulletPoints.map((point, index) => (
-                  <li key={index} className="text-foreground/80 max-md:text-sm">
-                    {point}
-                  </li>
-                ))}
-              </ul>
+              <div className="pt-4 md:pt-6 pb-2">
+                <p className="text-foreground/60 text-sm md:text-base leading-relaxed mb-4">
+                  {exp.summary}
+                </p>
+                <ul className="list-disc list-outside ml-4 md:ml-5 space-y-2.5 md:space-y-3">
+                  {exp.bulletPoints.map((point, index) => (
+                    <li key={index} className="text-foreground/80 text-sm md:text-base leading-relaxed pl-1 md:pl-2">
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </motion.div>
           </Transition>
         ))}
