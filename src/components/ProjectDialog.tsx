@@ -67,10 +67,7 @@ const ProjectDialog = ({
               ))}
             </div>
             <p className="text-white/50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, tempora. Officiis eveniet harum nemo sed sint
-              distinctio fugiat earum cumque aliquid in magnam nam odio
-              molestias architecto veniam, asperiores voluptates?
+              {selectedProject.description}
             </p>
           </div>
         </div>

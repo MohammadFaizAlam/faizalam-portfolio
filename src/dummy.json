@@ -2,9 +2,9 @@
   "about": {
     "name": "Md. Faiz",
     "title": "Web Developer",
-    "subTitle": "Building applications that impact your bottom line, not trendy frameworks for LinkedIn posts.",
-    "description": "No dramatic origin story. I spent years figuring out how systems work - markets, code, what breaks and what holds. Built web applications with React, Next.js, Tailwind, JavaScript, Node.js, and Python. Running an agency at 14 and trading taught me what tutorials don't: cut losses fast, communicate under pressure, clarity beats cleverness. That shows up in everything I build.",
-    "quote": "Thoughtful systems",
+    "subTitle": "Web applications built for revenue, not résumé padding.",
+    "description": "Years spent studying what actually works — in markets, in code, in business. Web applications built with React, Next.js, Node.js, and Python. Running a marketing agency and trading real capital taught what tutorials skip: move fast, communicate clearly, and never confuse activity with progress.",
+    "quote": "Systems that hold under pressure",
     "exp_year": "5",
     "address": "Mumbai, India",
     "some_total": "90",
@@ -34,15 +34,15 @@
   "timeline": [
     {
       "company_name": "Indian markets ",
-      "summary": "Technical Analysis & Risk Management",
+      "summary": "Technical analysis, volume profiling, and disciplined risk management.",
       "sequence": 6,
       "startDate": "2023-05-12T00:00:00.000Z",
       "endDate": "2026-01-18T00:00:00.000Z",
       "jobTitle": "Swing Trading",
       "jobLocation": "& Crypto",
       "bulletPoints": [
-        "Trade price action and liquidity zones where volume confirms intent - wait for alignment, not hope.",
-        "\nEnter when structure breaks with momentum, exit when targets hit or thesis fails - no second guessing mid position."
+        "Trade price action and liquidity zones backed by volume — entry on alignment, not assumption.",
+        "\nStructured exits at target or invalidation. No emotional overrides."
       ],
       "forEducation": true,
       "enabled": true,
@@ -50,15 +50,15 @@
     },
     {
       "company_name": "Swing Trader",
-      "summary": "Started after reading about the '92 scam. Learned by losing, then studying what actually moves price.",
+      "summary": "Self-taught through live markets. Learned what moves price by studying structure, not headlines.",
       "sequence": 4,
       "startDate": "2024-03-06T00:00:00.000Z",
       "endDate": "2024-03-20T00:00:00.000Z",
       "jobTitle": "Stock Market & Trading",
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
-        "Trade where institutions enter through liquidity and volume, not where retail hopes they do.",
-        "\nUse multi-timeframe analysis and volume to time entries when probability shifts in my favor."
+        "Focus on institutional-level liquidity and volume patterns for high-probability entries.",
+        "\nMulti-timeframe analysis to time positions when structure and momentum align."
       ],
       "forEducation": false,
       "enabled": true,
@@ -66,15 +66,15 @@
     },
     {
       "company_name": "Founder, AgencyGrow",
-      "summary": "Started at 14 because I wanted my own money and couldn't wait for a degree.",
+      "summary": "Founded a performance marketing agency. Managed real ad budgets and client relationships from day one.",
       "sequence": 3,
       "startDate": "2023-10-11T00:00:00.000Z",
       "endDate": "2024-03-28T00:00:00.000Z",
       "jobTitle": "Marketing Agency",
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
-        "Launched AgencyGrow at a young age, running performance-driven ad campaigns for clients.",
-        "\nManaged Google and Meta budgets for real clients, delivered 2-5x ROI under actual pressure."
+        "Ran performance-driven ad campaigns across Google and Meta for paying clients.",
+        "\nDelivered 2–5x ROI managing real budgets under real deadlines."
       ],
       "forEducation": false,
       "enabled": true,
@@ -82,16 +82,15 @@
     },
     {
       "company_name": "AgencyGrow, ",
-      "summary": "Performance Marketing Systems.",
+      "summary": "Performance marketing for real clients with real budgets.",
       "sequence": 2,
       "startDate": "2023-02-24T00:00:00.000Z",
       "endDate": "2026-01-18T00:00:00.000Z",
       "jobTitle": "Marketing Agency",
       "jobLocation": "India, Mumbai",
       "bulletPoints": [
-        "Started AgencyGrow at 14 - ran Google and Meta campaigns while figuring out client calls.",
-        "\nWorked with ad managers to consistently hit 2-5x ROI, learned what works beyond theory.",
-        "\nHandled funnels, creatives, tracking, budgets - and the pressure when results actually matter.\n"
+        "Ran Google and Meta ad campaigns for paying clients — managed funnels, creatives, tracking, and budgets end-to-end.",
+        "\nConsistently delivered 2–5x ROI across campaigns, optimizing spend based on live performance data."
       ],
       "forEducation": true,
       "enabled": true,
@@ -99,7 +98,7 @@
     },
     {
       "company_name": "Raigad Military School & Rajhans Vidyalaya",
-      "summary": "Built discipline and curiosity while completing secondary and higher secondary education.\n",
+      "summary": "Secondary and higher secondary education.",
       "sequence": 1,
       "icon": {
         "public_id": "portfolio3/1710357917833-0mic4.png",
@@ -110,8 +109,8 @@
       "jobTitle": "Education",
       "jobLocation": "Mumbai, India",
       "bulletPoints": [
-        "Completed 10th boards at Raigad Military School with structured learning environment.",
-        "Switched to Rajhans Vidyalaya for science stream, started actually caring about how things work."
+        "10th boards at Raigad Military School.",
+        "Science stream (11th–12th) at Rajhans Vidyalaya."
       ],
       "forEducation": false,  
       "enabled": true,
@@ -119,7 +118,7 @@
     },
     {
       "company_name": "India, ",
-      "summary": "Building Products That Actually Work",
+      "summary": "Shipping products built for post-launch reality.",
       "sequence": 1,
       "icon": {
         "public_id": "1706289470834-siro83",
@@ -130,9 +129,8 @@
       "jobTitle": "Web Development",
       "jobLocation": "Mumbai",
       "bulletPoints": [
-        "Ship functional web apps using React, Next.js, Node.js, Python - picked for delivery speed.",
-        "Code with future maintenance in mind because quick fixes create expensive problems.",
-        "Design for real user behavior and post-launch reality, not just demos."
+        "Build with React, Next.js, Node.js, and Python — chosen for delivery speed and long-term maintainability.",
+        "Every decision accounts for real user behavior, not demo-day assumptions."
       ],
       "forEducation": true,
       "enabled": true,
@@ -400,7 +398,7 @@
         "public_id": "1706285511679-xe7r9t",
         "url": "projects/project-1.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "A proof-of-work blockchain implementation built from scratch — mining, block validation, and chain integrity visualized in real time.",
       "techStack": [
         "Reactjs ",
         " Nextjs ",
@@ -418,7 +416,7 @@
         "public_id": "1706285468702-igx05q",
         "url": "projects/project-2.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "A browser-based 2D space shooter with collision detection, scoring mechanics, and progressive difficulty — built with vanilla JS and CSS.",
       "techStack": [
         "Reactjs",
         "CSS",
@@ -436,7 +434,7 @@
         "public_id": "1706285431821-3lfg2r",
         "url": "projects/project-3.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "A market analysis dashboard for tracking price action and key indicators — built for speed and clarity with real-time data rendering.",
       "techStack": [
         "Reactjs ",
         " Nextjs ",
@@ -455,7 +453,7 @@
         "public_id": "1706285416017-wra7swm",
         "url": "projects/project-4.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "Marketing agency landing page with conversion-focused layout, service breakdowns, and clear CTAs — designed to generate qualified leads.",
       "techStack": [
         "Reactjs ",
         " Nextjs ",
@@ -474,7 +472,7 @@
         "public_id": "1706285405228-98liol",
         "url": "projects/project-5.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "Restaurant website with menu presentation, reservation flow, and responsive design — built to drive foot traffic and online orders.",
       "techStack": [
         "Reactjs ",
         " CSS ",
@@ -492,7 +490,7 @@
         "public_id": "1706285393568-zl9mcc",
         "url": "projects/project-6.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "Interactive simulation of carbon atom electron orbits — a visual exploration of atomic structure built with JavaScript and CSS.",
       "techStack": [
         "Reactjs",
         " CSS",
@@ -510,7 +508,7 @@
         "public_id": "1706285378965-91vbk",
         "url": "projects/project-7.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "Business solutions landing page with clean information architecture, service sections, and contact integration.",
       "techStack": [
         "Reactjs ",
         " CSS ",
@@ -528,7 +526,7 @@
         "public_id": "1706285368529-zdr5fl",
         "url": "projects/project-1.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "Concept landing page for a metaverse platform — immersive layout with modern UI patterns and scroll-driven interactions.",
       "techStack": [
         "Reactjs  ",
         " Nextjs ",
@@ -546,7 +544,7 @@
         "public_id": "1706285357884-3ja6sw",
         "url": "projects/project-2.jpg"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "Audio player for Quran recitations with surah selection, translation sync, and clean playback controls.",
       "techStack": [
         "Reactjs   ",
         " CSS",
@@ -602,7 +600,7 @@
     {
       "name": "Web Development",
       "charge": "$400",
-      "desc": "Build web applications that scale without breaking - clean code, maintainable structure, built for what happens after launch.",
+      "desc": "Web applications that scale without breaking — clean architecture, maintainable code, built for what happens after launch.",
       "enabled": true,
       "_id": "65f1fd690556c3f887e9d94a",
       "image": {
@@ -613,7 +611,7 @@
     {
       "name": "UI/UX & Graphic Design",
       "charge": "$100",
-      "desc": "Design interfaces that guide users naturally - clarity over cleverness, function over decoration, brand consistency throughout.",
+      "desc": "Interfaces that guide users toward action — clarity over cleverness, function over decoration, consistent with your brand.",
       "image": {
         "public_id": "portfolio3/1710357775748-9vwq4q.jpeg",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357775748-9vwq4q.jpeg"
@@ -624,7 +622,7 @@
     {
       "name": "Marketing Strategy",
       "charge": "$1500",
-      "desc": "Build campaigns from data, not assumptions - grow traffic and engagement with strategies tested under real budget pressure.",
+      "desc": "Campaigns built on data, not assumptions. Traffic and engagement strategies tested with real budgets.",
       "image": {
         "public_id": "1706290914024-725ytf",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706290914024-725ytf",
@@ -636,7 +634,7 @@
     {
       "name": "Ads Management",
       "charge": "$2000",
-      "desc": "Run Google and Meta Ads focused on ROI, not vanity metrics - cut waste, optimize spend, deliver consistent returns.",
+      "desc": "Google and Meta Ads optimized for ROI, not vanity metrics. Less waste, better spend allocation, consistent returns.",
       "image": {
         "public_id": "portfolio3/1710357668346-ke8kgt.jpeg",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357668346-ke8kgt.jpeg"
@@ -647,7 +645,7 @@
     {
       "name": "SEO Optimization",
       "charge": "$200",
-      "desc": "Improve search rankings through technical fixes and content structure - sustainable traffic growth, not quick tricks that fade.",
+      "desc": "Higher rankings through technical fixes and content structure — sustainable traffic, not tricks that expire.",
       "image": {
         "public_id": "portfolio3/1710357680224-phijt.png",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357680224-phijt.png"
@@ -658,7 +656,7 @@
     {
       "name": "Workflow & Product Systems",
       "charge": "$100",
-      "desc": "Design systems that reduce friction and scale without constant intervention - built for efficiency and long-term consistency.",
+      "desc": "Operational systems that reduce friction and scale without constant oversight — built for long-term efficiency.",
       "image": {
         "public_id": "portfolio3/1710357752227-6f5trs.jpeg",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357752227-6f5trs.jpeg"
@@ -674,7 +672,7 @@
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357726628-c4dr18.png"
       },
       "name": "Arjun Mehta",
-      "review": "We worked together on a web application where clarity and structure mattered. He approached problems methodically and delivered reliable, maintainable solutions without unnecessary complexity.",
+      "review": "Clear, structured approach to problem-solving. Delivered maintainable solutions without unnecessary complexity — exactly what the project needed.",
       "position": "Frontend Developer",
       "enabled": true,
       "_id": "65f1fcdf0556c3f887e9d74c"
@@ -685,7 +683,7 @@
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357705657-aimydg.png"
       },
       "name": "Rohan Kapoor",
-      "review": "He handled both development and coordination responsibly. Communication was clear, timelines were respected, and decisions were always made with long-term impact in mind.",
+      "review": "Development and coordination handled responsibly. Communication was clear, timelines were respected, and every decision factored in long-term impact.",
       "position": "Project Lead",
       "enabled": true,
       "_id": "65f1fcca0556c3f887e9d6e8"
@@ -696,7 +694,7 @@
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357683739-tqeav.png"
       },
       "name": "Neha Sharma",
-      "review": "He translated designs into functional interfaces with attention to edge cases and usability. Feedback was handled thoughtfully, and changes were implemented without friction.",
+      "review": "Designs translated into functional interfaces with real attention to edge cases. Feedback handled thoughtfully, changes implemented without friction.",
       "position": "UI/UX Designer",
       "enabled": true,
       "_id": "65f1fcb30556c3f887e9d662"
@@ -707,7 +705,7 @@
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357647030-pi5cis.png"
       },
       "name": "Kunal Verma",
-      "review": "He consistently wrote clean, understandable code and took ownership of features from start to finish. Easy to work with and dependable under real project constraints.",
+      "review": "Clean, understandable code with full ownership from start to finish. Dependable under real project constraints and easy to work with.",
       "position": "Senior Engineer",
       "enabled": true,
       "_id": "65f1fc8f0556c3f887e9d4e5"
@@ -718,7 +716,7 @@
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357534893-2s9b5d.png"
       },
       "name": "Ananya Iyer",
-      "review": "The work was structured, predictable, and aligned with real requirements. He focused on building something usable rather than over-engineering solutions.",
+      "review": "Structured, predictable work aligned with real requirements. Focused on building something usable — no over-engineering.",
       "position": "Product Owner",
       "enabled": true,
       "_id": "65f1fc1f0556c3f887e9d31d"
