@@ -5,14 +5,18 @@ import { socials } from "../constants";
 import gsap from "gsap";
 
 const Contact = () => {
-  const text = `Got a vision or ambitious project to build?
-    Let’s engineer a reliable, high-impact solution.`;
+  const text = `Have a web build, local business site, or ad campaign in mind?
+    Talk directly to the operator engineering it.`;
+
+  const mobileText = `Have a project or ad campaign in mind?
+Talk directly to the operator.`;
+
   const items = [
-    "just imagine, I code",
-    "just imagine, I code",
-    "just imagine, I code",
-    "just imagine, I code",
-    "just imagine, I code",
+    "direct execution",
+    "direct execution",
+    "direct execution",
+    "direct execution",
+    "direct execution",
   ];
   useGSAP(() => {
     gsap.from(".social-link", {
@@ -34,9 +38,10 @@ const Contact = () => {
     >
       <div>
         <AnimatedHeaderSection
-          subTitle={"You Dream It, I Code It"}
+          subTitle={"Direct Operator Access • No Middlemen"}
           title={"Contact"}
           text={text}
+          mobileText={mobileText}
           textColor={"text-white"}
           withScrollTrigger={true}
         />

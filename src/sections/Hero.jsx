@@ -12,6 +12,9 @@ const Hero = () => {
 unfair advantage through premium
 results driven webs/apps`;
 
+  const mobileText = `I help growing brands & startups gain an unfair advantage
+through premium results-driven webs/apps`;
+
   // Only render the 3D scene while the hero is on screen —
   // a full-screen WebGL canvas keeps burning GPU otherwise and
   // makes scrolling through the rest of the page laggy.
@@ -36,6 +39,7 @@ results driven webs/apps`;
         subTitle={"404 No Bugs Found"}
         title={"Mohd. Faiz"}
         text={text}
+        mobileText={mobileText}
         textColor={"text-black"}
       />
       <figure

@@ -1,78 +1,59 @@
 // constants/index.js
 export const servicesData = [
   {
-    title: "Full-Stack Engineering",
+    title: "Full-Stack Web Development",
     description:
-      "Your product deserves a battle-tested digital foundation. I engineer custom web applications with clean architecture, high-efficiency databases, and seamless APIs—built for post-launch reality and zero tech debt.",
+      "Custom Next.js and React web applications built for local businesses, clinics, and startups. Sub-second loads, mobile-first UX, and conversion architecture engineered to turn search traffic into paying customers.",
     items: [
       {
-        title: "Robust Backends & APIs",
-        description: "(Node.js, Python, REST/GraphQL, Auth Systems)",
+        title: "High-Speed Frontends",
+        description: "(Next.js, React, Tailwind CSS, 95+ Core Web Vitals)",
       },
       {
-        title: "Modern Frontend Architecture",
-        description: "(React, Next.js, TypeScript, Interactive UI)",
+        title: "Reliable APIs & Backend Logic",
+        description: "(Node.js, Python, PostgreSQL, Auth & DB Optimization)",
       },
       {
-        title: "Scalable Data Design",
-        description: "(PostgreSQL, MySQL, MongoDB, Query Optimization)",
+        title: "Local SMB Conversion Architecture",
+        description: "(Booking systems, reservation flows, dynamic catalogs)",
       },
     ],
   },
   {
-    title: "Conversion UI/UX & Motion",
+    title: "Performance Marketing (AgencyGrow)",
     description:
-      "A clunky interface destroys trust and burns leads. I design high-converting, pixel-perfect user experiences that eliminate friction, capture attention, and guide visitors seamlessly toward decisive action.",
+      "Full-funnel Google and Meta ad campaigns managed with disciplined budgets and precise tracking. Delivered consistent 2–5x ROI across client accounts by cutting wasted spend and optimizing on live performance data.",
     items: [
       {
-        title: "Strategic Product Interfaces",
-        description: "(Clarity over cleverness, conversion-first UX)",
+        title: "Full-Funnel Ad Campaigns",
+        description: "(Google Ads & Meta Ads with strict CPA targets)",
       },
       {
-        title: "3D & Interactive Motion",
-        description: "(Three.js, GSAP, fluid animations that sell)",
+        title: "High-Intent Lead Funnels",
+        description: "(Conversion-focused landing pages & qualification flows)",
       },
       {
-        title: "Speed & Core Web Vitals",
-        description: "(Sub-second loads, 95+ Lighthouse performance)",
+        title: "Data Tracking & Attribution",
+        description: "(GA4, Meta CAPI, custom conversion events)",
       },
     ],
   },
   {
-    title: "Performance Marketing Systems",
+    title: "Systematic Execution & Discipline",
     description:
-      "Traffic without conversions is an expensive vanity metric. Drawing on experience founding AgencyGrow, I architect full-funnel acquisition systems and paid campaigns that consistently deliver 2–5x ROI.",
+      "Trading real market capital with volume profiling and liquidity mapping taught what tutorials skip: calculate risk before reward, respect invalidation points, and build software architectures that hold under real-world pressure.",
     items: [
       {
-        title: "Conversion Funnel Architecture",
-        description: "(High-intent landing pages, lead capture funnels)",
+        title: "Defensive Code Architecture",
+        description: "(Defensive APIs, error boundaries, zero production fragility)",
       },
       {
-        title: "Paid Media Management",
-        description: "(Google & Meta Ads optimized with real budgets)",
+        title: "Live Data & Streaming Dashboards",
+        description: "(WebSockets, telemetry pipelines, real-time analytics)",
       },
       {
-        title: "Technical SEO & Schema",
-        description: "(Structured data, semantic HTML, index velocity)",
-      },
-    ],
-  },
-  {
-    title: "Resilient Architecture & Logic",
-    description:
-      "Trading real capital and managing production systems taught what tutorials skip: plan for volatility, protect the downside, and build architectures that hold under intense real-world pressure.",
-    items: [
-      {
-        title: "Real-Time Data Streaming",
-        description: "(WebSockets, telemetry pipelines, live dashboards)",
-      },
-      {
-        title: "Quantitative Market Models",
-        description: "(Volume profiling, liquidity mapping, precision metrics)",
-      },
-      {
-        title: "Rock-Solid Reliability",
-        description: "(CI/CD pipelines, Docker containers, defensive coding)",
+        title: "Capital & Risk Management",
+        description: "(Rigorous data analysis with zero emotional overrides)",
       },
     ],
   },
@@ -81,7 +62,7 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "POW Blockchain",
+    name: "Proof-of-Work Blockchain Protocol",
     description:
       "A proof-of-work blockchain implementation built from scratch — mining, block validation, and chain integrity visualized in real time.",
     href: "https://github.com/MohammadFaizAlam/pow-blockchain",
@@ -96,7 +77,7 @@ export const projects = [
   },
   {
     id: 2,
-    name: "2D Space Defender",
+    name: "2D Canvas Physics Engine",
     description:
       "A browser-based arcade shooter with custom physics collision engines, scoring mechanics, dynamic particle fx, and progressive difficulty.",
     href: "https://github.com/MohammadFaizAlam/2d-space-defender",
@@ -111,7 +92,7 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Market Miner",
+    name: "MarketMiner: Liquidity Terminal",
     description:
       "A real-time institutional market analysis dashboard for tracking price action, volume profiling, liquidity pools, and key indicators.",
     href: "https://github.com/MohammadFaizAlam/marketminer",
@@ -126,7 +107,7 @@ export const projects = [
   },
   {
     id: 4,
-    name: "AgencyGrow",
+    name: "AgencyGrow Acquisition Engine",
     description:
       "A conversion-focused marketing agency platform featuring service breakdowns, qualification funnels, and integrated lead generation tracking.",
     href: "https://github.com/MohammadFaizAlam/agencygrow",
@@ -141,7 +122,7 @@ export const projects = [
   },
   {
     id: 5,
-    name: "Grilli Gourmet",
+    name: "Grilli: Restaurant Booking System",
     description:
       "A restaurant web experience with dynamic menu presentation, reservation flow, and fluid mobile-first responsive architecture.",
     href: "https://github.com/MohammadFaizAlam/faiz-grilli",
@@ -156,7 +137,7 @@ export const projects = [
   },
   {
     id: 6,
-    name: "Carbon Atom Simulation",
+    name: "Interactive 3D Atomic Simulation",
     description:
       "An interactive 3D physics simulation visualizing electron orbital momentum and multi-shell atomic configurations with real-time vector mathematics.",
     href: "https://github.com/MohammadFaizAlam/faiz-atoms",

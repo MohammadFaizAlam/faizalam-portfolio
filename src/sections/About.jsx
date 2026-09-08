@@ -5,33 +5,36 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
-  const text = `Passionate about clean architecture
-    I build scalable, high-performance solutions
-    from prototype to production`;
+  const text = `I engineer resilient digital systems
+    built for post-launch reality—clean architecture, 
+    sub-second loads, and measurable growth.`;
+
+  const mobileText = `Resilient digital systems built for reality—
+clean architecture & measurable growth.`;
 
   const aboutItems = [
     {
-      text: "Building fast, resilient digital systems engineered for post-launch reality—clean architecture, intuitive UX, and measurable business growth.",
+      text: "One operator across the full loop: high-performance Next.js codebases, paid acquisition funnels, and disciplined downside protection.",
     },
     {
       isHeader: true,
-      text: "Core disciplines & focus:",
+      text: "Core disciplines & stack:",
     },
     {
       icon: "lucide:terminal",
-      text: "Full-stack web apps with React, Next.js, Node.js & Python",
+      text: "Full-stack web applications: React, Next.js, Node.js & Python",
     },
     {
       icon: "lucide:trending-up",
-      text: "AgencyGrow founder — scaling funnels with proven 2–5x ROI",
+      text: "Performance marketing: Founder at AgencyGrow, 2–5x ROI ad funnels",
     },
     {
       icon: "lucide:candlestick-chart",
-      text: "Market liquidity, volume profiling & disciplined risk systems",
+      text: "Market operations: Volume profiles, liquidity zones & strict risk rules",
     },
     {
       icon: "lucide:shield-check",
-      text: "Zero-compromise stability, sub-second loads & clean code",
+      text: "Production standard: Sub-second latency, clean UX & zero maintenance bloat",
     },
   ];
 
@@ -63,9 +66,10 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen bg-black rounded-b-4xl">
       <AnimatedHeaderSection
-        subTitle={"Code with purpose, Built to scale"}
+        subTitle={"Systems That Hold Under Pressure"}
         title={"About"}
         text={text}
+        mobileText={mobileText}
         textColor={"text-white"}
         withScrollTrigger={true}
       />

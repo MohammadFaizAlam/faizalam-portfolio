@@ -3,20 +3,30 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useRef } from "react";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import { useMediaQuery } from "react-responsive";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export const AnimatedTextLines = ({ text, items, className }) => {
+export const AnimatedTextLines = ({ text, mobileText, items, className }) => {
   const containerRef = useRef(null);
   const lineRefs = useRef([]);
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+
+  const activeText = isMobile && mobileText ? mobileText : text;
 
   const lines = items
     ? items
-    : text
-    ? text.split("\n").filter((line) => line.trim() !== "")
+    : activeText
+    ? isMobile && !mobileText
+      ? [activeText.split("\n").map((line) => line.trim()).filter(Boolean).join(" ")]
+      : activeText
+          .split("\n")
+          .map((line) => line.trim())
+          .filter((line) => line !== "")
     : [];
 
   useGSAP(() => {
+    lineRefs.current = lineRefs.current.slice(0, lines.length);
     if (lineRefs.current.length > 0) {
       gsap.from(lineRefs.current, {
         y: 100,
@@ -29,7 +39,7 @@ export const AnimatedTextLines = ({ text, items, className }) => {
         },
       });
     }
-  });
+  }, [lines.length, isMobile]);
 
   return (
     <div ref={containerRef} className={className}>

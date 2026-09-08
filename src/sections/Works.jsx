@@ -10,9 +10,12 @@ const Works = () => {
   const previewRef = useRef(null);
 
   const [currentIndex, setCurrentIndex] = useState(null);
-  const text = `Featured projects that have been meticulously
-    crafted with passion to drive
-    results and impact.`;
+  const text = `Production systems and web applications
+    engineered for sub-second performance,
+    scalability, and conversion.`;
+
+  const mobileText = `Production systems and web applications
+engineered for scale & conversion.`;
 
   const mouse = useRef({ x: 0, y: 0 });
   const moveX = useRef(null);
@@ -102,9 +105,10 @@ const Works = () => {
   return (
     <section id="work" className="flex flex-col min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"Logic meets Aesthetics, Seamlessly"}
+        subTitle={"Selected Systems & Production Builds"}
         title={"Works"}
         text={text}
+        mobileText={mobileText}
         textColor={"text-black"}
         withScrollTrigger={true}
       />
