@@ -33,7 +33,7 @@ through premium results-driven webs/apps`;
     <section
       id="home"
       ref={sectionRef}
-      className="flex flex-col justify-end min-h-screen"
+      className="relative flex flex-col justify-end min-h-screen min-h-dvh h-dvh sm:h-auto sm:min-h-screen pb-4 sm:pb-0 overflow-hidden sm:overflow-visible"
     >
       <AnimatedHeaderSection
         subTitle={"404 No Bugs Found"}
@@ -41,10 +41,10 @@ through premium results-driven webs/apps`;
         text={text}
         mobileText={mobileText}
         textColor={"text-black"}
+        isHero={true}
       />
       <figure
-        className="absolute inset-0 -z-50"
-        style={{ width: "100%", height: "100vh" }}
+        className="absolute inset-0 -z-50 w-full h-full"
       >
         <Canvas
           shadows

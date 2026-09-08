@@ -87,6 +87,7 @@
   font-style: italic;
   font-display: swap;
 }
+
 @theme {
   --color-primary: #e5e5e0;
   --color-DarkLava: #393632;
@@ -96,10 +97,12 @@
   --font-amiamie-round: "Amiamie-Round", sans-serif;
 
   --animate-marquee: marquee 40s infinite linear;
+
   @keyframes marquee {
     from {
       transform: translateX(0);
     }
+
     to {
       transform: translateX(calc(-100% - var(--gap)));
     }
@@ -133,4 +136,3 @@ body {
 @utility contact-text-responsive {
   @apply text-[42px] sm:text-[52px] md:text-[62px] lg:text-[100px];
 }
-

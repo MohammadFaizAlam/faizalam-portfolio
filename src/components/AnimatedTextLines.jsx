@@ -17,13 +17,13 @@ export const AnimatedTextLines = ({ text, mobileText, items, className }) => {
   const lines = items
     ? items
     : activeText
-    ? isMobile && !mobileText
-      ? [activeText.split("\n").map((line) => line.trim()).filter(Boolean).join(" ")]
-      : activeText
+      ? isMobile && !mobileText
+        ? [activeText.split("\n").map((line) => line.trim()).filter(Boolean).join(" ")]
+        : activeText
           .split("\n")
           .map((line) => line.trim())
           .filter((line) => line !== "")
-    : [];
+      : [];
 
   useGSAP(() => {
     lineRefs.current = lineRefs.current.slice(0, lines.length);
