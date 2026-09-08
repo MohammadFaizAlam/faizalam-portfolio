@@ -75,7 +75,10 @@ const Navbar = () => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
-      setShowBurger(currentScrollY <= lastScrollY || currentScrollY < 10);
+      // Keep the burger visible while the menu is open
+      setShowBurger(
+        isOpen || currentScrollY <= lastScrollY || currentScrollY < 10
+      );
 
       lastScrollY = currentScrollY;
     };
@@ -83,7 +86,7 @@ const Navbar = () => {
       passive: true,
     });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [isOpen]);
 
   const toggleMenu = () => {
     if (isOpen) {

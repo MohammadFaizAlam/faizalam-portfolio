@@ -118,36 +118,61 @@ const Marquee = ({
   }
 
   useEffect(() => {
-    const tl = horizontalLoop(itemsRef.current, {
+    const items = itemsRef.current.filter(Boolean);
+    if (!items.length) return;
+
+    // Respect users who prefer minimal motion
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return;
+    }
+
+    const tl = horizontalLoop(items, {
       repeat: -1,
       paddingRight: 30,
       reversed: reverse,
     });
 
-    Observer.create({
+    let speedTween = null;
+
+    const observer = Observer.create({
+      target: window,
+      type: "wheel,touch,pointer",
       onChangeY(self) {
         let factor = 2.5;
         if ((!reverse && self.deltaY < 0) || (reverse && self.deltaY > 0)) {
           factor *= -1;
         }
-        gsap
-          .timeline({
-            defaults: {
-              ease: "none",
-            },
-          })
+        if (speedTween) speedTween.kill();
+        speedTween = gsap
+          .timeline()
           .to(tl, { timeScale: factor * 2.5, duration: 0.2, overwrite: true })
           .to(tl, { timeScale: factor / 2.5, duration: 1 }, "+=0.3");
       },
     });
-    return () => tl.kill();
-  }, [items, reverse]);
+
+    // Stop animating entirely while the marquee is offscreen
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) tl.play();
+        else tl.pause();
+      },
+      { rootMargin: "100px" }
+    );
+    io.observe(containerRef.current);
+
+    return () => {
+      observer.kill();
+      io.disconnect();
+      if (speedTween) speedTween.kill();
+      tl.kill();
+    };
+  }, [reverse]);
   return (
     <div
       ref={containerRef}
       className={`overflow-hidden w-full h-20 md:h-[100px] flex items-center marquee-text-responsive font-light uppercase whitespace-nowrap ${className}`}
     >
-      <div className="flex">
+      <div className="flex will-change-transform">
         {items.map((text, index) => (
           <span
             key={index}

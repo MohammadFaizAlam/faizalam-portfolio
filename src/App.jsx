@@ -11,14 +11,21 @@ import Contact from "./sections/Contact";
 import { useProgress } from "@react-three/drei";
 
 const App = () => {
-  const { progress } = useProgress();
+  const { progress, errors } = useProgress();
   const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
-    if (progress === 100) {
+    if (progress === 100 || errors.length > 0) {
       setIsReady(true);
     }
-  }, [progress]);
+  }, [progress, errors]);
+
+  // Safety net: never trap the visitor behind the loader if the
+  // asset pipeline stalls (WebGL failure, slow network, etc.)
+  useEffect(() => {
+    const timeout = setTimeout(() => setIsReady(true), 8000);
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
     <ReactLenis root className="relative w-screen min-h-screen overflow-x-hidden">
